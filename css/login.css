@@ -1,0 +1,36 @@
+body{
+	padding-top: 4em;
+	padding-bottom: 3em;
+	background-image: url('../img/fondo2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;/*para que se adecue al tamaño total del navegador*/
+	background-attachment: fixed;
+	background-position: center;
+}
+h2{
+	color: white;
+    text-shadow: 1px 1px 1px white, 0 0 25px green, 0 0 5px darkblue;
+}
+.login{
+	max-width: 22em;
+	padding: 1.3em;
+	margin: 0 auto;
+	background-color: rgba(120, 119, 123, 0.3);
+	background: rgba(120, 119, 123, 0.3);
+	color: #fff;
+	border-radius: 0.5em;
+	-webkit-box-shadow: inset 1px 1px 22px 4px rgba(0,0,0,0.85);
+	-moz-box-shadow: inset 1px 1px 22px 4px rgba(0,0,0,0.85);
+	box-shadow: inset 1px 1px 22px 4px rgba(0,0,0,0.85);
+}
+input{
+	text-align: center;
+}
+
+#avatar{
+	width: 11em;
+	height: 11em;
+	margin: auto;
+	margin-bottom: 1em;
+	display: block;
+}

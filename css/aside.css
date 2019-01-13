@@ -1,0 +1,18 @@
+.list-group{
+	float: left;
+	overflow: auto;
+  	
+ 	}
+ #jumbotron{
+	box-sizing: border-box;
+	overflow: hidden;position: relative;
+ }
+article{
+	float: left;
+}
+#arti-derecha{
+	float: right;
+}
+footer{
+	clear: both;
+}

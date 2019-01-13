@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Curso de git con Mito Code</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="shortcut icon" type="image/x-icon" href="img/doradito.png">
+	<link rel="stylesheet" type="text/css" href="css/aside.css">
+	<link rel="stylesheet" type="text/css" href="font/css/open-iconic-bootstrap.min.css">
+</head>
+<body>
+	<section class="container">
+		<header>
+			<nav>
+				<ul>
+					<li><a href=""></a>curso</li>
+					<li><a href=""></a>curso</li>
+					<li><a href=""></a>curso</li>
+					<li><a href=""></a>curso</li>
+					<li><a href=""></a>curso</li>
+				</ul>
+			</nav>
+		</header>
+		<article>
+			<h2>HOLA MUNDO DE GIT Y GITHUB</h2>
+			<h3>Comandos git</h3>
+			<p>Para este`primer paso veamos los comandos de identificacion que debe utilizar <br>
+				para autentificar al usuario vamos utilizar: git config --global user.name "marco123lp"<br>
+				git config --global user.email "marcoadg70@hotmail.com"
+				</p>
+				<h3>Comando para ver con que usuario se encuentra autentificado</h3>
+				<p>git config --global -l</p>
+				<h3>Comando para hacer el primer init</h3>
+				<p>Es decir para iniciar a un repositorio de git debemos iniciar el direcotrio (capete raiz) donde se aloja la pagina web en este caso <br>git init</p>
+				<h3>Comando para ver si se han subido archivos al stage de git</h3>
+				<p>git status</p>
+				<h3>Comando para adicionar los archivos correspondientes de la pagina en desarrollo (index.html) en el stage</h3>
+				<p>git add . <br>git add -A <br>git add index.html</p>
+				<h3>Comando para dar luz verde o modificar de stage al repositorio de git</h3>
+				<p>git commit -m "mensaje para saber que cambio se hizo y en que consiste el cambio"</p>
+				<h3>Comando para ver los cambios que se hizo entre el proceso</h3>
+				<p>git diff</p>
+				<h3>Comando para revertir un paso</h3>
+				<p>git checkout <br>nos permitira hacer un cotrol z a algun paso equivocado guardado</p>
+				<h3>Comando para ver el historio de git</h3>
+				<p>git log <br>este comando me permipe ver el historial de mis "commits" durante el trancurso de las modificaciones del codigo</p>
+				<h3>Comando para ver el historio de forma mas ordenada</h3>
+				<p>git log --oneline --decorate --all --graph</p>
+				<h3>comando para remover un archivo del stage</h3>
+				<p>git reset "nombre o ruta del archivo especifico" <br>este comando me pemite remover de forma independiente como grupal los archivos que quiero que  no sean parte de este repositosrio. <br>Vale aclarar que solo elimina los archivos del stage y no asi del directorio original, solo lo aparta del stage del repositorio que posteriormente podemos volver agregarlo</p>
+				<h3>Comando para colocar alias a ciertos comando especificos</h3>
+				<p>git config --global alias.s "status" <br>git --global alias.co "commit <br>git --global alias.l "log" <br>est comando como su nombre indica me permite darla alias (apodos) a comandos que podrian ser bastante largos para asi poder abreviarlos</p>
+		</article>
+		<aside>
+			<h2>esto es un aside</h2>
+			<p>probando contenido para git, por tanto sera una pagina de uso de git</p>
+		</aside>
+	</section>
+	<footer>
+		<small><center>todos los derechos reservados &copy; Marco Antonio Dorado Gomez</center></small>
+	</footer>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
